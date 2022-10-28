@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(79, 110, 110);
+    padding: 15px;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    border-bottom: 2.5px solid #aeb2b5;
+}
+
+.header-logo {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px 50px;
+    
+}
+
+.header-item {
+    float: left;
+    padding-right: 70px;
+}
+
+.header-item li {
+    float: right;
+    display: flex;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 32px;
+    padding-right: 20px;
+    list-style-type: none;
+    justify-items: space-between;
+}
+
+.main {
+    height: 1500px;
+    position: static;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.contents {
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.pembatas-judul {
+    font-size: 28px;
+    width: 1395px;
+    padding: 15px 10px 20px 10px;
+    border-bottom: 1px solid #dee7ec;
+    justify-content: center;
+}
+
+.contents-item {
+    float: left;
+    padding-left: 20px;
+    padding: 32px 10px 50px 20px;
+  }
+
+.contents-item img:hover {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.contents-item p {
+    padding-left: 3px;
+}
+
+.iklan {
+    margin-right: 40px;
+    padding: 130px 10px 20px 10px;
+}
+
+.pembayaran {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 50px;
+    width: 1395px;
+    border-top: 1px solid #dee7ec;
+}
+
+.footer-bayar {
+    color: #777d81;
+    font-size: 28px;
+}
+
+.footers-item {
+    float: left;
+    padding-right: 50px;
+}
+
+.copyright {
+    background-color: rgb(79, 110, 110);
+    height: 50px;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#mode {
+    background-color: rgb(79, 110, 110);
+    border: none;
+    margin-top: 1px;
+}
+
+#keranjang {
+    background-color: rgb(79, 110, 110);
+    border: none;
+}
+
+#judul-saya {
+    background-color: rgb(231, 232, 231);
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10%;
+    margin-left: 50px;
+    border: 5px;
+}
+
+#data-saya {
+    float: left;
+    margin-top:25px;
+    margin-right: 50px;
+    border-radius: 50%;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
